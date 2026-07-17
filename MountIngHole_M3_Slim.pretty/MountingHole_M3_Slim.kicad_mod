@@ -1,0 +1,79 @@
+(footprint "MountingHole_M3_Slim"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83cc4e21-f0ff-431d-af20-6b88b7d9eac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M3_Slim"
+		(at 0 -5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1ae5d93-3469-46e8-bd6e-a2a7730fab26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c199336e-4fd5-41b2-bd13-1b277ff41b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47fe8119-08c8-4e44-8550-d5c1f6f11022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8dd88bf1-8c1a-4293-b62f-b69944445a6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.8 4.8)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "755f6723-84f8-4c28-8a76-4c559e5db218")
+	)
+	(embedded_fonts no)
+)
