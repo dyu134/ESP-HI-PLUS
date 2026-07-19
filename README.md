@@ -35,7 +35,7 @@ An **AI-enabled voice assistant with on-screen interaction**, built around the *
 - **[2" LCD header](https://www.waveshare.com/2inch-LCD-Module.htm)** (J2) — 2" IPS LCD display.
 - **Two SKRPACE010 tactile pushbuttons** (SW1, SW2).
 - **JS102011SAQN SPDT slide switch** (SW3).
-- **SK9822-EC20** addressable RGB LED (D3), plus discrete status LEDs (D2 orange, D4 red).
+- **SK9822-EC20** addressable RGB LED (D3), plus discrete status LEDs (D2 orange for battery charging, D4 red for USB power).
 - **Two PR5L4015-5P-C-F magnetic pogo-pin connectors** (J3, J4) — 5-pin 2.54 mm headers that mate with **magnetic pogo-pin sub-modules** for snap-on expansion.
 
 ### Mounting
@@ -55,14 +55,12 @@ An **AI-enabled voice assistant with on-screen interaction**, built around the *
 ├── ESP-HI-PLUS Symbols/        # Project-local schematic symbols
 ├── ESP-HI-PLUS Footprints/     # Project-local footprint libraries (*.pretty)
 ├── ESP-HI-PLUS 3D Models/      # STEP models used by the 3D viewer
-├── ESP-HI-PLUS-backups/        # Auto-generated backups (ignored)
 ├── production/                 # Manufacturing outputs
-│   ├── bom.csv                 # Bill of materials
-│   ├── designators.csv         # Reference designators
-│   ├── positions.csv           # Pick-and-place positions
-│   ├── netlist.ipc             # IPC-D-356 netlist
-│   └── ESP-HI-PLUS.zip         # Production archive
-└── .history/                   # KiCad local history (ignored)
+    ├── bom.csv                 # Bill of materials
+    ├── designators.csv         # Reference designators
+    ├── positions.csv           # Pick-and-place positions
+    ├── netlist.ipc             # IPC-D-356 netlist
+    └── ESP-HI-PLUS.zip         # Production archive
 ```
 
 ## Bill of Materials (summary)
