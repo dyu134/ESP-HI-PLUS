@@ -7,6 +7,11 @@ fp-info-cache
 *-backups/
 *.kicad_prl
 
+# KiCad local history (auto-saved snapshots)
+.history/
+.history
+.history/**
+
 # Zencoder
 .zencoder/
 .zencoder-*
