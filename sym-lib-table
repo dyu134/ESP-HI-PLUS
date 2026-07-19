@@ -1,5 +1,5 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "ESP-HI-PLUS Library") (type "KiCad") (uri "C:/Users/dyu13/Documents/Project/ESP-HI-PLUS Library.kicad_sym") (options "") (descr ""))
-	(lib (name "LSM6DSV16X") (type "KiCad") (uri "${KIPRJMOD}/LSM6DSV16X.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP-HI-PLUS Library") (type "KiCad") (uri "${KIPRJMOD}/ESP-HI-PLUS Symbols/ESP-HI-PLUS Library.kicad_sym") (options "") (descr ""))
+	(lib (name "LSM6DSV16X") (type "KiCad") (uri "${KIPRJMOD}/ESP-HI-PLUS Symbols/LSM6DSV16X.kicad_sym") (options "") (descr ""))
 )
