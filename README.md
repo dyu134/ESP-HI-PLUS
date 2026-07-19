@@ -1,8 +1,8 @@
 # ESP-HI-PLUS
 
-A compact, feature-rich development board built around the **ESP32-S3-WROOM-1**, designed for handheld and wearable applications combining motion sensing, audio I/O, a small display, and USB-C power delivery with on-board Li-ion battery charging.
+An **AI-enabled voice assistant with on-screen interaction**, built around the **ESP32-S3-WROOM-1**. The board integrates a microphone, speaker amplifier, IMU, 2" IPS LCD, and USB-C with on-board Li-ion battery charging, and exposes **two 5-pin magnetic pogo-pin connectors** for attaching various sub-modules. Designed for handheld and wearable applications that combine on-device conversational AI, audio capture/playback, display feedback, and motion sensing.
 
-![Board](ESP-HI-PLUS.kicad_pcb)
+![ESP-HI-PLUS 3D Model](ESP-HI-PLUS%203D%20Model%20Image.png)
 
 ## Features
 
@@ -32,11 +32,11 @@ A compact, feature-rich development board built around the **ESP32-S3-WROOM-1**,
 
 ### User Interface
 
-- **[0.71" LCD header](https://www.waveshare.com/2inch-LCD-Module.htm)** (J2) — small monochrome or color display.
+- **[2" LCD header](https://www.waveshare.com/2inch-LCD-Module.htm)** (J2) — 2" IPS LCD display.
 - **Two SKRPACE010 tactile pushbuttons** (SW1, SW2).
 - **JS102011SAQN SPDT slide switch** (SW3).
 - **SK9822-EC20** addressable RGB LED (D3), plus discrete status LEDs (D2 orange, D4 red).
-- **Two PR5L4015-5P-C-F expansion headers** (J3, J4) — 5-pin 2.54 mm for I/O breakouts.
+- **Two PR5L4015-5P-C-F magnetic pogo-pin connectors** (J3, J4) — 5-pin 2.54 mm headers that mate with **magnetic pogo-pin sub-modules** for snap-on expansion.
 
 ### Mounting
 
@@ -80,6 +80,7 @@ A compact, feature-rich development board built around the **ESP32-S3-WROOM-1**,
 | D3          | SK9822-EC20 — addressable RGB LED                                       |
 | J1          | USB-C receptacle                                                        |
 | J2          | [2" IPS LCD connector](https://www.waveshare.com/2inch-LCD-Module.htm)  |
+| J3, J4      | Two 5-pin magnetic pogo-pin connectors (PR5L4015-5P-C-F) for sub-modules|
 | SW1, SW2    | SKRPACE010 tactile pushbuttons                                          |
 | SW3         | JS102011SAQN SPDT slide switch                                          |
 
