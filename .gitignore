@@ -6,3 +6,14 @@ _autosave-*
 fp-info-cache
 *-backups/
 *.kicad_prl
+
+# Zencoder
+.zencoder/
+.zencoder-*
+zencoder/
+zencoder-*
+*.zencoder
+.zencoder-cache/
+zencoder-cache/
+.zencoder_config
+.zencoder-snippets/
