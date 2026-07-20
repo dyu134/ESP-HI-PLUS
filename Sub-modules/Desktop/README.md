@@ -30,12 +30,13 @@ The **Desktop** sub-module is an environment-sensing and time-keeping expansion 
 ### User Interface & IO
 
 - **SK9822-EC20** (D2) — Addressable RGB LED for status or mood lighting.
-- **Tactile Switches** (SW1, SW3) — General purpose user inputs.
-- **USB-C Port** (J1) — For independent programming of the RP2040.
+- **Tactile Switches** (SW1, SW3) — Reset and bootmode selection switching.
+- **Snooze Button** (SW2) — Sleep mode activation.
+- **USB-C Port** (J1) — For independent programming and powering of the RP2040.
 
 ## Integration
 
-This module identifies itself as an environmental sensor class. The ESP-HI-PLUS main board can communicate with the onboard sensors via I²C and with the RP2040 via UART through the magnetic pogo-pin connectors.
+This module identifies itself as an environmental sensor class. The ESP-HI-PLUS main board can read data from the onboard sensors through commands to the RP2040 via UART through the magnetic pogo-pin connectors.
 
 ### Pinouts (Magnetic Pogo Connectors)
 
