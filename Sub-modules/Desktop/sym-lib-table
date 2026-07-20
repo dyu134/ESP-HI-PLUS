@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Desktop Library") (type "KiCad") (uri "${KIPRJMOD}/Desktop Symbols/Desktop Library.kicad_sym") (options "") (descr ""))
+)
