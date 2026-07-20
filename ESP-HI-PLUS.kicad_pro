@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.1,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -62,51 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|129483300|57152148|a7e2a494-abc9-46c4-8a1b-8c61a868cad2|3612dad2-3c58-40b3-bafa-88b3b95ba2c6",
-          ""
-        ],
-        [
-          "clearance|130041211|58363474|a00472bf-5e7b-45f5-be58-d53eadf91ad7|4db949d9-cddb-44fb-8369-e1b2ca0de7f3",
-          ""
-        ],
-        [
-          "clearance|130236537|56102874|ed445b16-bc8d-467f-a512-3931b11bc266|53390615-b443-4c55-b5b6-68581bebe746",
-          ""
-        ],
-        [
-          "clearance|130541337|58363474|4db949d9-cddb-44fb-8369-e1b2ca0de7f3|a4b10a30-9a8d-412d-9784-a787c8bd5b55",
-          ""
-        ],
-        [
-          "clearance|131041463|58363474|a4b10a30-9a8d-412d-9784-a787c8bd5b55|c73bfc47-9667-40ac-97c3-28bd94dd5396",
-          ""
-        ],
-        [
-          "clearance|131261300|57347474|c73b0f06-d0f4-4f52-82b5-56cd874046cb|1d4c4143-8311-4589-aa50-976afa842fb8",
-          ""
-        ],
-        [
-          "clearance|131261300|57847600|2f499d37-a7c9-4f6c-a2f4-50db98011e5c|c73b0f06-d0f4-4f52-82b5-56cd874046cb",
-          ""
-        ],
-        [
           "drill_out_of_range|139090000|72760000|62bb5063-9f10-4cbc-a5d3-c2410310710e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|53450000|47f2c4ec-fe1d-4a1a-bb04-2e3f14a8f00a|30eefccb-fcf3-4f75-b4c1-a809339dfb14",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|53450000|b1df6059-42ba-434c-9177-1b5af309af95|30eefccb-fcf3-4f75-b4c1-a809339dfb14",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|59550000|6ec3694e-c980-4eaa-844a-1f126923aa22|030b98dd-2cd5-4c54-8594-42174c8529ce",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|59550000|7214a102-7963-4787-896e-9220386b984f|030b98dd-2cd5-4c54-8594-42174c8529ce",
           ""
         ],
         [
@@ -119,7 +91,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -297,7 +269,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -705,7 +677,7 @@
         "uuid": "38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R28-29,#PWR46,#PWR60,C20",
     "variants": []
   },
   "sheets": [
