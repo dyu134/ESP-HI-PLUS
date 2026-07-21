@@ -5435,427 +5435,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Sensor:SHT40"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SHT40"
-				(at 2.54 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Sensor:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "IC-..."
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SHT40_1_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Sensor:STCC4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.604 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "STCC4"
-				(at 4.826 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Sensor:STCC4"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "The STCC4 is Sensirion’s next generation miniature CO2 sensor for indoor air quality applications."
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "IC-..."
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun CO2 Sensor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STCC4_1_0"
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "SDA_C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VDD_IO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SCL_C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STCC4_1_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-Sensor:VEML7700-TT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6208,6 +5787,233 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Gas:SCD40-D-R2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SCD40-D-R2"
+				(at 6.985 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CO2 sensor I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion*SCD4?*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SCD40-D-R2_0_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SCD40-D-R2_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6663,7 +6469,7 @@
 	)
 	(text "0x64"
 		(exclude_from_sim no)
-		(at 185.674 30.226 0)
+		(at 220.726 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6828,12 +6634,6 @@
 		(uuid "09bca7a8-0d6b-4693-9da9-9bb7f9588749")
 	)
 	(junction
-		(at 156.21 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09fde5d3-0680-42aa-9169-d591744c611e")
-	)
-	(junction
 		(at 55.88 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6858,6 +6658,12 @@
 		(uuid "24e1c049-979f-44c8-aa79-0880c1ac024d")
 	)
 	(junction
+		(at 179.07 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25830e6d-1301-4de4-806b-8970d2478cd8")
+	)
+	(junction
 		(at 90.17 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6874,12 +6680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32b8039f-68a4-436b-b5d0-6ff98e570a93")
-	)
-	(junction
-		(at 156.21 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38fea1bf-8cee-4e66-b5da-ad841a948cd7")
 	)
 	(junction
 		(at 237.49 93.98)
@@ -6904,12 +6704,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "531db852-93f5-4a23-ab61-18d79eba145a")
-	)
-	(junction
-		(at 203.2 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "532dd311-4701-47d0-a8d1-88da7cb1e068")
 	)
 	(junction
 		(at 128.27 123.19)
@@ -6972,10 +6766,10 @@
 		(uuid "8ff62b5c-9c28-4a55-86f4-aeb0285baf5c")
 	)
 	(junction
-		(at 203.2 44.45)
+		(at 179.07 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d9f010e-91f7-4927-90d9-b9785cd59827")
+		(uuid "9de580d4-62dc-49f7-b34c-52081edb5988")
 	)
 	(junction
 		(at 110.49 20.32)
@@ -7274,26 +7068,6 @@
 			(type default)
 		)
 		(uuid "082e3d7c-b06c-4b72-a43c-e4cb7c6c5a6b")
-	)
-	(wire
-		(pts
-			(xy 179.07 40.64) (xy 181.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09355599-192a-41d4-8737-cf9924d7286e")
-	)
-	(wire
-		(pts
-			(xy 203.2 38.1) (xy 203.2 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096182af-f283-48fa-ba22-1ac4f7b48ca7")
 	)
 	(wire
 		(pts
@@ -7627,16 +7401,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 36.83) (xy 209.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd8b32d-037a-4fe6-8488-f534b7afd338")
-	)
-	(wire
-		(pts
 			(xy 142.24 50.8) (xy 142.24 57.15)
 		)
 		(stroke
@@ -7797,13 +7561,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 33.02) (xy 149.86 34.29)
+			(xy 205.74 41.91) (xy 205.74 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b914290-ec94-4cdb-9597-b84f0fad7b7e")
+		(uuid "3d97768f-1846-4980-bf9b-ac3f98502fe7")
 	)
 	(wire
 		(pts
@@ -7877,6 +7641,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 39.37) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e35e16-018f-444a-9755-e857e3b7192d")
+	)
+	(wire
+		(pts
 			(xy 226.06 142.24) (xy 226.06 144.78)
 		)
 		(stroke
@@ -7884,16 +7658,6 @@
 			(type default)
 		)
 		(uuid "46567287-70d2-492a-8035-eb2ae0c8ee13")
-	)
-	(wire
-		(pts
-			(xy 209.55 44.45) (xy 203.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a3115c-f783-4fae-be90-041115ee5ff3")
 	)
 	(wire
 		(pts
@@ -7934,16 +7698,6 @@
 			(type default)
 		)
 		(uuid "4adc7673-4590-4fa5-b82c-160215bf51c4")
-	)
-	(wire
-		(pts
-			(xy 156.21 38.1) (xy 156.21 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af0b38c-2185-4ce2-8dd9-f8671e20f3ef")
 	)
 	(wire
 		(pts
@@ -8014,16 +7768,6 @@
 			(type default)
 		)
 		(uuid "4febce5f-249a-4e47-a4e2-73dd568b07c5")
-	)
-	(wire
-		(pts
-			(xy 203.2 43.18) (xy 203.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4febe3b2-b02b-4534-ade9-6fb3a01be7c0")
 	)
 	(wire
 		(pts
@@ -8257,16 +8001,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 33.02) (xy 191.77 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65608ba0-ff98-4b1f-b2cf-cfe8b327f8ae")
-	)
-	(wire
-		(pts
 			(xy 186.69 133.35) (xy 198.12 133.35)
 		)
 		(stroke
@@ -8287,13 +8021,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 187.96 43.18)
+			(xy 205.74 46.99) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "672ed8b3-c946-44d2-8bc5-6627bf8c91c1")
+		(uuid "673b83c7-bd00-44fb-bf86-db2866239dc8")
 	)
 	(wire
 		(pts
@@ -8677,13 +8411,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 35.56) (xy 156.21 35.56)
+			(xy 179.07 30.48) (xy 179.07 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85d68cae-3ba5-407a-b50d-5ac773bf570d")
+		(uuid "84a101ab-7f3a-4be9-ab08-9203cf2aab41")
 	)
 	(wire
 		(pts
@@ -8727,13 +8461,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 39.37) (xy 149.86 40.64)
+			(xy 179.07 31.75) (xy 205.74 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a3f501b-aae7-4b71-9d15-dfa17ab2b92d")
+		(uuid "8b97fab2-04c1-4f4d-af14-709c89d09f9b")
 	)
 	(wire
 		(pts
@@ -8804,6 +8538,16 @@
 			(type default)
 		)
 		(uuid "95d1f5c3-7dea-4939-bda9-1d34fb2326b8")
+	)
+	(wire
+		(pts
+			(xy 205.74 36.83) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2a3a5-a7ce-4921-a66a-c0b92cc8ac08")
 	)
 	(wire
 		(pts
@@ -8917,26 +8661,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 156.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3546f15-b246-44cd-a241-c225c1237f49")
-	)
-	(wire
-		(pts
-			(xy 209.55 43.18) (xy 209.55 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6195e09-2a9a-4ff8-9d62-619d69b15993")
-	)
-	(wire
-		(pts
 			(xy 139.7 173.99) (xy 129.54 173.99)
 		)
 		(stroke
@@ -8954,6 +8678,16 @@
 			(type default)
 		)
 		(uuid "a78bea66-4654-46f0-95df-9f54643ecb7a")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 179.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e1fd2f-ceb4-4c6b-88d4-e1c5f9ae8139")
 	)
 	(wire
 		(pts
@@ -8997,16 +8731,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 43.18) (xy 156.21 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa2ad560-1500-4f74-a480-8e4aa1e40763")
-	)
-	(wire
-		(pts
 			(xy 24.13 30.48) (xy 24.13 39.37)
 		)
 		(stroke
@@ -9034,16 +8758,6 @@
 			(type default)
 		)
 		(uuid "abfd0287-f222-400e-b9fa-a44445423e7d")
-	)
-	(wire
-		(pts
-			(xy 156.21 40.64) (xy 158.75 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac126d97-6185-48b8-a0ad-3dab88332fa7")
 	)
 	(wire
 		(pts
@@ -9137,6 +8851,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 36.83) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a8e1db-ec7d-41a4-8b71-06d2d70d6ff2")
+	)
+	(wire
+		(pts
 			(xy 87.63 21.59) (xy 87.63 20.32)
 		)
 		(stroke
@@ -9144,16 +8868,6 @@
 			(type default)
 		)
 		(uuid "b2b20848-2581-4ce1-98b6-a0eb00f3e7be")
-	)
-	(wire
-		(pts
-			(xy 149.86 40.64) (xy 156.21 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f4fec4-cc70-4697-993d-4692846ec45e")
 	)
 	(wire
 		(pts
@@ -9184,16 +8898,6 @@
 			(type default)
 		)
 		(uuid "b409c698-c9fb-4c11-935b-cb7b6130fc14")
-	)
-	(wire
-		(pts
-			(xy 156.21 35.56) (xy 156.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b61e4fb0-98c1-41eb-bf86-7f867b3bd0ef")
 	)
 	(wire
 		(pts
@@ -9234,16 +8938,6 @@
 			(type default)
 		)
 		(uuid "b97be9a5-b301-4430-b8c9-d9f93e3bea0a")
-	)
-	(wire
-		(pts
-			(xy 156.21 33.02) (xy 158.75 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b995fcfe-9608-4253-9175-468d9527f257")
 	)
 	(wire
 		(pts
@@ -9337,16 +9031,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 156.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be878260-a5d7-449c-8177-6a8b772ca340")
-	)
-	(wire
-		(pts
 			(xy 110.49 20.32) (xy 113.03 20.32)
 		)
 		(stroke
@@ -9364,16 +9048,6 @@
 			(type default)
 		)
 		(uuid "bf53e389-fe37-4abd-b17a-d2f7209e677f")
-	)
-	(wire
-		(pts
-			(xy 203.2 36.83) (xy 209.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff8a244-19c6-4a77-90b9-2744c75ee32d")
 	)
 	(wire
 		(pts
@@ -9467,16 +9141,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 34.29) (xy 203.2 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca0378d1-876b-4797-87e6-1a052f9e3739")
-	)
-	(wire
-		(pts
 			(xy 111.76 162.56) (xy 111.76 166.37)
 		)
 		(stroke
@@ -9494,16 +9158,6 @@
 			(type default)
 		)
 		(uuid "ca72b29b-85d8-40a9-98e4-e444db36b2b9")
-	)
-	(wire
-		(pts
-			(xy 181.61 40.64) (xy 181.61 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb260502-406d-4e7d-b8ea-15eb32fee2de")
 	)
 	(wire
 		(pts
@@ -9637,16 +9291,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 46.99) (xy 203.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db7cbf44-c812-4a8f-acf0-65311981de35")
-	)
-	(wire
-		(pts
 			(xy 38.1 49.53) (xy 38.1 48.26)
 		)
 		(stroke
@@ -9694,16 +9338,6 @@
 			(type default)
 		)
 		(uuid "de8bd602-f4a6-400d-8f24-577bf31bac8d")
-	)
-	(wire
-		(pts
-			(xy 179.07 35.56) (xy 191.77 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09d5d84-b710-41b7-99e0-e0675e9116a6")
 	)
 	(wire
 		(pts
@@ -9794,16 +9428,6 @@
 			(type default)
 		)
 		(uuid "e4c88fbe-c637-4422-a3ef-8280773a12ee")
-	)
-	(wire
-		(pts
-			(xy 179.07 38.1) (xy 187.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5c2c682-7304-4721-b8bd-610fe7ebdedb")
 	)
 	(wire
 		(pts
@@ -9914,16 +9538,6 @@
 			(type default)
 		)
 		(uuid "f0e53dbf-49e6-42bf-84bc-0caca4680b30")
-	)
-	(wire
-		(pts
-			(xy 156.21 33.02) (xy 149.86 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35baa0b-7128-4873-be48-0967daf954aa")
 	)
 	(wire
 		(pts
@@ -10186,6 +9800,16 @@
 		(uuid "4e0b75fc-8838-49ba-bfcc-a8b8bf8aa1ba")
 	)
 	(label "RP_I2C_SDA"
+		(at 201.93 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56809fd0-3d88-49fa-8977-07f0d240a023")
+	)
+	(label "RP_I2C_SDA"
 		(at 198.12 133.35 180)
 		(effects
 			(font
@@ -10204,16 +9828,6 @@
 			(justify left bottom)
 		)
 		(uuid "61cdfd15-2b1b-426a-948c-a44c78521d05")
-	)
-	(label "RP_I2C_SDA"
-		(at 191.77 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6322b947-b1ce-4909-b3bf-95afcfeb6152")
 	)
 	(label "PS_INT"
 		(at 203.2 104.14 180)
@@ -10294,6 +9908,16 @@
 			(justify right bottom)
 		)
 		(uuid "73c5833e-039c-497c-8caf-9a6cca3abc15")
+	)
+	(label "RP_I2C_SCL"
+		(at 201.93 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75318d0f-d0e5-4e00-a0ce-de701231578d")
 	)
 	(label "SUB_ISDA_C"
 		(at 237.49 109.22 0)
@@ -10424,16 +10048,6 @@
 			(justify right bottom)
 		)
 		(uuid "c4c8d25f-d965-4f10-94b9-5d614b06adb2")
-	)
-	(label "RP_I2C_SCL"
-		(at 191.77 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6dc77ce-0336-4d37-92e4-1ce93c7c3d2c")
 	)
 	(label "QSPI_SD2"
 		(at 63.5 72.39 0)
@@ -10574,6 +10188,103 @@
 			(justify right bottom)
 		)
 		(uuid "feefdfad-8c21-470e-8514-9398fce3b2ec")
+	)
+	(symbol
+		(lib_id "Sensor_Gas:SCD40-D-R2")
+		(at 179.07 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0058c440-3287-4dc9-96e9-35f468acda3e")
+		(property "Reference" "U5"
+			(at 170.18 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SCD40-D-R2"
+			(at 170.18 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+			(at 179.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
+			(at 179.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
+			(at 179.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3e8e671a-2386-4d5b-8c5d-f4c9ad63ca58")
+		)
+		(pin "9"
+			(uuid "8309224e-dbbc-4cb7-9f66-366e357ddd42")
+		)
+		(pin "10"
+			(uuid "f07a3ccb-9c89-4dbd-a3d3-93a66418e354")
+		)
+		(pin "19"
+			(uuid "bd59b119-9bdd-49a7-a57d-fba87e68aa46")
+		)
+		(pin "6"
+			(uuid "56f8c2c1-e4f4-4e92-b013-3eb904e6ad2e")
+		)
+		(pin "20"
+			(uuid "c770f081-89e5-480a-9d46-4978d0c1e849")
+		)
+		(pin "21"
+			(uuid "8ab454f7-a45d-44d9-acbb-800e7719da80")
+		)
+		(instances
+			(project "Desktop"
+				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -11448,242 +11159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 203.2 34.29 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1735dcf5-11d4-4c9f-96fb-155fc0c8784d")
-		(property "Reference" "#PWR034"
-			(at 203.2 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 203.2 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 203.2 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14a2a66c-6775-4d18-b685-a9925215f71c")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 156.21 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "176efb62-7162-4c72-bf0c-aac9dedb9850")
-		(property "Reference" "#PWR025"
-			(at 156.21 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 46.99 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f10579f3-bc58-4302-a298-3db8b0e514dd")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 203.2 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17b27912-08de-4d2c-905a-34b71c7166b3")
-		(property "Reference" "#PWR035"
-			(at 203.2 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 50.8 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe5d6c5b-0d7e-40f0-b5e0-ecf4c5345cf2")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 111.76 161.29 0)
 		(unit 1)
@@ -11756,6 +11231,99 @@
 			(project "Desktop"
 				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 205.74 39.37 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ebaf106-9868-4946-9c88-b1eb6fee9aec")
+		(property "Reference" "C11"
+			(at 207.772 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 207.772 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 205.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 205.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fdc8114-b9f3-4505-aa5d-4de5fe190ddb")
+		)
+		(pin "2"
+			(uuid "3b3a5a1f-639e-4945-bb90-253931902119")
+		)
+		(instances
+			(project "Desktop"
+				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12504,103 +12072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Sensor:SHT40")
-		(at 195.58 40.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b38499a-5993-4469-bc46-6b245fa627ca")
-		(property "Reference" "U9"
-			(at 195.58 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHT40"
-			(at 195.58 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 195.58 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
-			(at 195.58 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
-			(at 195.58 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "IC-..."
-			(at 195.58 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8d0d5628-5496-4165-bf54-deaf70648b46")
-		)
-		(pin "1"
-			(uuid "a99a2ae3-f893-4a8c-9e85-6fec2522b4fb")
-		)
-		(pin "3"
-			(uuid "03a6bfcc-775d-46ed-8df0-a8eab8bffbd5")
-		)
-		(pin "2"
-			(uuid "d2004da3-0a88-4d23-9bf5-dfca753c51c8")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:USBLC6-2P6")
 		(at 243.84 67.31 0)
 		(unit 1)
@@ -13089,115 +12560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Sensor:STCC4")
-		(at 168.91 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ab24051-9032-432c-8cd7-11b10643f665")
-		(property "Reference" "U5"
-			(at 168.91 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STCC4"
-			(at 168.91 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Sensor:STCC4"
-			(at 168.91 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/684A889C/CD_DS_STCC4_D1_3.pdf"
-			(at 168.91 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "The STCC4 is Sensirion’s next generation miniature CO2 sensor for indoor air quality applications."
-			(at 168.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "IC-..."
-			(at 168.91 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "37da220c-e631-479e-8d19-145aa6593f6c")
-		)
-		(pin "6"
-			(uuid "7b515f17-929f-44ec-b7e1-1cd2440f81f2")
-		)
-		(pin "7"
-			(uuid "bfaea85e-c144-431a-a884-1a6c58569d15")
-		)
-		(pin "8"
-			(uuid "21e0fd0c-b69d-4df4-b34d-a23f90600f21")
-		)
-		(pin "4"
-			(uuid "176c1bf3-78ec-4d83-9b6c-76c6eed6d6ec")
-		)
-		(pin "1"
-			(uuid "6bc76983-4189-4cba-820e-12d5e2cd5e71")
-		)
-		(pin "2"
-			(uuid "25ba87fb-906a-4c31-b548-a7b78b20dfc4")
-		)
-		(pin "3"
-			(uuid "299716dc-2dc0-40b2-b83e-6eac70d9d64c")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_Small")
 		(at 175.26 66.04 270)
 		(mirror x)
@@ -13366,6 +12728,84 @@
 			(project "Desktop"
 				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 179.07 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d348d4d-6a7a-46ed-a86d-a9354639040d")
+		(property "Reference" "#PWR049"
+			(at 179.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 52.07 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4327763-88f5-420f-bdf4-6b295097e600")
+		)
+		(instances
+			(project "Desktop"
+				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17299,84 +16739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8ff64ca-ca80-4c41-b30e-4cb185d3277c")
-		(property "Reference" "#PWR024"
-			(at 156.21 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 156.21 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c26d379-10d4-4f9b-ac20-63024c7512ba")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 105.41 0)
 		(unit 1)
@@ -18386,98 +17748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 209.55 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7156240-3813-4fe0-b55c-4ed014a5ead8")
-		(property "Reference" "C17"
-			(at 207.518 40.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 207.518 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 209.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 209.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9de34054-d6c9-4c18-84a2-65a6db18346e")
-		)
-		(pin "2"
-			(uuid "40217ee2-116b-4b41-ba7e-cc8fd7bef1fa")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 29.21 91.44 0)
 		(unit 1)
@@ -18749,6 +18019,84 @@
 			(project "Desktop"
 				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 179.07 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9709659-6467-4587-822e-33eb02eed47f")
+		(property "Reference" "#PWR024"
+			(at 179.07 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 179.07 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "398a6410-c36a-4919-bd66-c57459d47f4e")
+		)
+		(instances
+			(project "Desktop"
+				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -19092,99 +18440,6 @@
 			(project "Desktop"
 				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 149.86 36.83 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "efcbcb78-d9f4-40d3-996f-35b06560a4ad")
-		(property "Reference" "C11"
-			(at 151.892 36.322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 151.892 38.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 149.86 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 149.86 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 149.86 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31c634a0-a5b3-4b6d-afd8-709b894ea7a7")
-		)
-		(pin "2"
-			(uuid "314d6a98-8259-4c7b-b444-afbd8c3bd1a1")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "C11")
 					(unit 1)
 				)
 			)
