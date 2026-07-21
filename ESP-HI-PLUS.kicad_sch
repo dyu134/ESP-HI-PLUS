@@ -3572,208 +3572,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP-HI-PLUS Library:DMM-4026-B-I2S-R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DMM-4026-B-I2S-R"
-				(at 11.684 -9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://puiaudio.com/file/specs-DMM-4026-B-I2S-R.pdf"
-				(at -1.524 18.542 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DMM-4026-B-I2S-R_0_0"
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "LR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "CONFIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "WS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "SD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DMM-4026-B-I2S-R_1_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ESP-HI-PLUS Library:TP4065"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7682,6 +7480,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Audio:ICS-43434"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MK"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ICS-43434"
+				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sensor_Audio:InvenSense_ICS-43434-6_3.5x2.65mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.invensense.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TDK InvenSense MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "microphone MEMS 24bit I2S ICS-43434 TDK InvenSense"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "InvenSense*ICS*43434*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICS-43434_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "WS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "LR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -8325,6 +8352,16 @@
 		)
 		(uuid "0cc8eb16-a141-4120-995c-90e77ffe84a9")
 	)
+	(text "GND -> L CH"
+		(exclude_from_sim no)
+		(at 120.396 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e549d56-8df0-4609-b4dd-44afb2bba318")
+	)
 	(text "To Sub-Module"
 		(exclude_from_sim no)
 		(at 261.112 56.134 0)
@@ -8370,6 +8407,12 @@
 		(uuid "08bff666-cde7-4ec8-a48f-3c70ac1ea3c5")
 	)
 	(junction
+		(at 111.76 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bd34a10-5d83-428f-8581-b93842ef3c32")
+	)
+	(junction
 		(at 217.17 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8394,6 +8437,12 @@
 		(uuid "11c8dac9-3e4e-488a-9814-e3b4da0a16f2")
 	)
 	(junction
+		(at 130.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1526e3f6-8f3d-45eb-a3d3-41eb21694ce2")
+	)
+	(junction
 		(at 251.46 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8410,12 +8459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "268b4475-3034-4e88-b1a8-8f7e417e4fc5")
-	)
-	(junction
-		(at 140.97 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "277aa1df-3278-476a-9128-b3a3cc35e3b7")
 	)
 	(junction
 		(at 25.4 36.83)
@@ -8568,12 +8611,6 @@
 		(uuid "7bc79a23-402c-4db0-b4d0-a0ff618139ee")
 	)
 	(junction
-		(at 116.84 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8246bb4e-c220-4901-aee5-325df8a4a0e4")
-	)
-	(junction
 		(at 139.7 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8622,12 +8659,6 @@
 		(uuid "a7e2e0fb-23ad-4e19-a4de-00c97e4bb976")
 	)
 	(junction
-		(at 129.54 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9a96816-ade6-4f81-b617-c16c48b4adfc")
-	)
-	(junction
 		(at 146.05 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8674,12 +8705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ad5c44-b2b4-4cb2-b460-82c5850b00ef")
-	)
-	(junction
-		(at 129.54 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c521064f-791b-48a4-9e32-93273657062e")
 	)
 	(junction
 		(at 46.99 151.13)
@@ -8740,6 +8765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e0647c-4560-498b-9093-dec30a8d2790")
+	)
+	(junction
+		(at 130.81 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d893b578-ff96-4105-b3ec-9bbf48ec33ba")
 	)
 	(junction
 		(at 106.68 21.59)
@@ -8812,12 +8843,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fba4abf2-5ac5-408f-b3e1-99ee6537a05b")
-	)
-	(junction
-		(at 138.43 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd029c16-9caa-4102-bb47-1d2bb67dde0d")
 	)
 	(no_connect
 		(at 85.09 46.99)
@@ -8961,16 +8986,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 140.97 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "059df8f0-b1de-4659-8ceb-7a65255662b1")
-	)
-	(wire
-		(pts
 			(xy 124.46 120.65) (xy 128.27 120.65)
 		)
 		(stroke
@@ -8988,16 +9003,6 @@
 			(type default)
 		)
 		(uuid "092d2845-ad4c-417d-8532-d4e9810a5c8d")
-	)
-	(wire
-		(pts
-			(xy 129.54 85.09) (xy 138.43 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a00042-74df-46fe-b29a-a442246feb5d")
 	)
 	(wire
 		(pts
@@ -9088,6 +9093,16 @@
 			(type default)
 		)
 		(uuid "1168c279-f870-4f1b-9bca-b947cd21535f")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a5d80b-f716-4b3d-be5d-fe8a038bc07d")
 	)
 	(wire
 		(pts
@@ -9361,6 +9376,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 55.88) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1d9743-efe5-4467-b6fd-9d5f775a0f03")
+	)
+	(wire
+		(pts
 			(xy 278.13 26.67) (xy 278.13 29.21)
 		)
 		(stroke
@@ -9371,7 +9396,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 129.54 63.5)
+			(xy 111.76 55.88) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9588,16 +9613,6 @@
 			(type default)
 		)
 		(uuid "405ec865-4e87-4f9e-964c-f5d8660ab30c")
-	)
-	(wire
-		(pts
-			(xy 116.84 76.2) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a2b63a-f2f6-47e1-932c-d9dcf623515a")
 	)
 	(wire
 		(pts
@@ -9871,16 +9886,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a98853-2b4c-4f7e-a2d1-d00b70a295c4")
-	)
-	(wire
-		(pts
 			(xy 31.75 60.96) (xy 33.02 60.96)
 		)
 		(stroke
@@ -9928,6 +9933,16 @@
 			(type default)
 		)
 		(uuid "564e2902-2dfb-474a-a49a-a5409d1e6025")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 154.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568b45d0-c9ea-4188-a864-174a0825cee3")
 	)
 	(wire
 		(pts
@@ -10341,6 +10356,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 55.88) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72743397-024a-479f-9305-18a07f67cc03")
+	)
+	(wire
+		(pts
 			(xy 135.89 171.45) (xy 127 171.45)
 		)
 		(stroke
@@ -10521,6 +10546,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 54.61) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2a1d28-5247-4771-a7b1-19d5ad9f762c")
+	)
+	(wire
+		(pts
 			(xy 257.81 128.27) (xy 262.89 128.27)
 		)
 		(stroke
@@ -10658,16 +10693,6 @@
 			(type default)
 		)
 		(uuid "84e25052-dd2f-412d-b546-188f39dc0fcd")
-	)
-	(wire
-		(pts
-			(xy 104.14 73.66) (xy 120.65 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850b5cbe-e557-481f-acfb-544011446afb")
 	)
 	(wire
 		(pts
@@ -10821,16 +10846,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 120.65 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ae8edd-b1e3-49c6-acd7-42a8d0ed1278")
-	)
-	(wire
-		(pts
 			(xy 193.04 39.37) (xy 193.04 36.83)
 		)
 		(stroke
@@ -10901,13 +10916,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 120.65 76.2)
+			(xy 120.65 62.23) (xy 120.65 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96d4553d-71b1-4c3e-97eb-a26a51d733d5")
+		(uuid "96efe438-40b6-41d8-8d60-385f19e3ce2f")
 	)
 	(wire
 		(pts
@@ -10968,16 +10983,6 @@
 			(type default)
 		)
 		(uuid "9c75e360-82d3-4779-8f50-24adee480284")
-	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 138.43 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d6e5837-18af-4c4e-9e22-4bcad394f595")
 	)
 	(wire
 		(pts
@@ -11088,16 +11093,6 @@
 			(type default)
 		)
 		(uuid "a2703d37-35c6-49dd-8a44-4154151dac61")
-	)
-	(wire
-		(pts
-			(xy 140.97 85.09) (xy 138.43 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2febc98-3813-40ee-a32f-1cc41d1cbf4f")
 	)
 	(wire
 		(pts
@@ -11471,13 +11466,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 63.5)
+			(xy 111.76 66.04) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc7b9b98-8190-49b2-a611-383847b2aedc")
+		(uuid "bca644a4-00c1-4f55-abcc-c671ff14e832")
 	)
 	(wire
 		(pts
@@ -11568,16 +11563,6 @@
 			(type default)
 		)
 		(uuid "c2849f23-7869-4802-ace1-c25b61f29b53")
-	)
-	(wire
-		(pts
-			(xy 129.54 83.82) (xy 129.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3732690-adae-41a6-bd11-632c9afdad79")
 	)
 	(wire
 		(pts
@@ -11698,16 +11683,6 @@
 			(type default)
 		)
 		(uuid "c752efef-c4f6-4a95-9b19-fd13d75d4319")
-	)
-	(wire
-		(pts
-			(xy 129.54 85.09) (xy 129.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79222ed-9949-473c-bb7c-6b0443808a46")
 	)
 	(wire
 		(pts
@@ -11911,16 +11886,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 140.97 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d992be1c-3dad-4bc7-96dd-1b51774c572c")
-	)
-	(wire
-		(pts
 			(xy 106.68 21.59) (xy 107.95 21.59)
 		)
 		(stroke
@@ -11971,6 +11936,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 73.66) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5251c3-5ab2-4788-87a9-cb38987eabb7")
+	)
+	(wire
+		(pts
 			(xy 151.13 115.57) (xy 151.13 111.76)
 		)
 		(stroke
@@ -12001,6 +11976,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 62.23) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df60a562-f6e3-4bbd-a923-c945371f9a8a")
+	)
+	(wire
+		(pts
 			(xy 257.81 157.48) (xy 262.89 157.48)
 		)
 		(stroke
@@ -12011,7 +11996,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 85.09) (xy 129.54 85.09)
+			(xy 111.76 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -12021,7 +12006,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 116.84 76.2)
+			(xy 111.76 64.77) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12038,6 +12023,16 @@
 			(type default)
 		)
 		(uuid "e129d821-62f0-48b5-bbe6-a9ada788bd29")
+	)
+	(wire
+		(pts
+			(xy 120.65 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2918c7a-5028-4d5e-9452-0a63b3e35ccc")
 	)
 	(wire
 		(pts
@@ -12461,7 +12456,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 140.97 71.12)
+			(xy 140.97 67.31) (xy 154.94 67.31)
 		)
 		(stroke
 			(width 0)
@@ -12498,16 +12493,6 @@
 			(type default)
 		)
 		(uuid "ffaacaad-0f24-44f0-a884-bda98e73629e")
-	)
-	(wire
-		(pts
-			(xy 129.54 63.5) (xy 129.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fff4c6df-e2ea-496b-8327-5b22f0800076")
 	)
 	(table
 		(column_count 4)
@@ -13970,12 +13955,12 @@
 		(uuid "3ff9603b-4f22-43d0-be25-320f261063e4")
 	)
 	(label "I2S_IN_BCLK"
-		(at 104.14 73.66 0)
+		(at 154.94 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "414a1900-d827-4667-806e-785c9a2e0190")
 	)
@@ -14300,7 +14285,7 @@
 		(uuid "b2c38f43-2e45-4f73-ae40-70d69ec009a5")
 	)
 	(label "I2S_IN_DATA"
-		(at 153.67 71.12 180)
+		(at 154.94 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14440,12 +14425,12 @@
 		(uuid "caebbb25-e085-4c98-9384-2ee809c9aa76")
 	)
 	(label "I2S_IN_WS"
-		(at 104.14 71.12 0)
+		(at 154.94 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cb52ca2a-928f-4c9b-aae8-b644d0e19f60")
 	)
@@ -15003,7 +14988,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 129.54 62.23 0)
+		(at 130.81 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15014,7 +14999,7 @@
 		(fields_autoplaced yes)
 		(uuid "16276263-a095-4bec-8c40-14f48688dd34")
 		(property "Reference" "#PWR025"
-			(at 129.54 66.04 0)
+			(at 130.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15025,7 +15010,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 129.54 57.15 0)
+			(at 130.81 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15035,7 +15020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 62.23 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15046,7 +15031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 62.23 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15057,7 +15042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 62.23 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15394,6 +15379,100 @@
 			(project "ESP-HI-PLUS"
 				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Audio:ICS-43434")
+		(at 130.81 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18998c4f-4e57-4486-932f-885921ab6828")
+		(property "Reference" "MK1"
+			(at 132.9533 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICS-43434"
+			(at 132.9533 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Audio:InvenSense_ICS-43434-6_3.5x2.65mm"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.invensense.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TDK InvenSense MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79b63dca-715e-4a77-bade-4f9af2fe5b0f")
+		)
+		(pin "1"
+			(uuid "aa194392-5ebe-43b5-a407-ae773fb40c29")
+		)
+		(pin "6"
+			(uuid "2085bcd7-9534-4452-beba-46e8eadbfc3e")
+		)
+		(pin "4"
+			(uuid "10ea109a-7fe2-48ac-a04e-ee789647bb64")
+		)
+		(pin "3"
+			(uuid "47651991-695b-45ec-9ea2-abf235041ba7")
+		)
+		(pin "5"
+			(uuid "9d90ca47-e456-4ccb-a3be-11ba2f5f981b")
+		)
+		(instances
+			(project "ESP-HI-PLUS"
+				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
+					(reference "MK1")
 					(unit 1)
 				)
 			)
@@ -18840,7 +18919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.94 127 0)
 			(hide yes)
 			(show_name no)
@@ -22357,7 +22436,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 129.54 86.36 0)
+		(at 130.81 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22368,7 +22447,7 @@
 		(fields_autoplaced yes)
 		(uuid "96931991-eed8-417c-81ff-6b7b19ebfc42")
 		(property "Reference" "#PWR026"
-			(at 129.54 92.71 0)
+			(at 130.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22379,7 +22458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 90.17 0)
+			(at 130.81 78.74 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -22389,7 +22468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 86.36 0)
+			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22400,7 +22479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 86.36 0)
+			(at 130.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22411,7 +22490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 95.25 0)
+			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24442,7 +24521,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 116.84 66.04 0)
+		(at 111.76 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24453,7 +24532,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba6ede97-3509-405d-ac32-5eca7eafd5dd")
 		(property "Reference" "C9"
-			(at 119.38 64.7762 0)
+			(at 114.3 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24464,7 +24543,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 119.38 67.3162 0)
+			(at 114.3 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24475,7 +24554,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.84 66.04 0)
+			(at 111.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24486,7 +24565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 66.04 0)
+			(at 111.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24497,7 +24576,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 66.04 0)
+			(at 111.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24508,7 +24587,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 116.84 66.04 0)
+			(at 111.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26048,103 +26127,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP-HI-PLUS Library:DMM-4026-B-I2S-R")
-		(at 129.54 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e329c52f-650c-48fd-bbf0-9174e6699c6e")
-		(property "Reference" "U5"
-			(at 131.6833 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMM-4026-B-I2S-R"
-			(at 131.6833 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MIC_DMM-4026-B-I2S-R:MIC_DMM-4026-B-I2S-R"
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://puiaudio.com/file/specs-DMM-4026-B-I2S-R.pdf"
-			(at 128.016 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1bf5f1d6-d54b-4ac8-a8c7-6f46ecd6ea96")
-		)
-		(pin "6"
-			(uuid "384d3b00-dded-4064-b2af-56eb23fcffef")
-		)
-		(pin "7"
-			(uuid "8ab03934-64e2-4987-ad6e-2279241bca76")
-		)
-		(pin "4"
-			(uuid "bd95af99-af0e-4bca-9713-dc7b1c05c2ac")
-		)
-		(pin "3"
-			(uuid "aa1b5c06-6c8f-4d2e-b9f9-f0dd16f5f6bd")
-		)
-		(pin "1"
-			(uuid "68d226b7-c3c3-437a-9d22-25215d2f845f")
-		)
-		(pin "5"
-			(uuid "8c5c6abf-b030-4ea4-9125-950294dde830")
-		)
-		(instances
-			(project "ESP-HI-PLUS"
-				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 152.4 0)
 		(mirror y)
@@ -27196,88 +27178,6 @@
 			(project "ESP-HI-PLUS"
 				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 140.97 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff37308f-79a8-4b24-86bf-2354c3644818")
-		(property "Reference" "R16"
-			(at 143.51 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 143.51 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 140.97 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 140.97 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23794cf3-3dc3-4652-8c12-92f4cca511c5")
-		)
-		(pin "2"
-			(uuid "119f1cb6-a846-487f-9713-ea660c5af0ec")
-		)
-		(instances
-			(project "ESP-HI-PLUS"
-				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
-					(reference "R16")
 					(unit 1)
 				)
 			)
