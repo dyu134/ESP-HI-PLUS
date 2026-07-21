@@ -13105,7 +13105,7 @@
 			(uuid "7d48e263-9b9d-41c5-a6da-f60edf8382a0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Sensor.3dshapes/Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm.step"
+		(model "${KIPRJMOD}/Desktop 3D Models/SCD4x.step"
 			(offset
 				(xyz 0 0 0)
 			)
