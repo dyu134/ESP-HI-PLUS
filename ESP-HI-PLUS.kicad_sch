@@ -20443,7 +20443,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TGL34-6.8CA"
+		(property "Value" "SMF6.8CA"
 			(at 162.56 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20454,7 +20454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_MiniMELF_TVS"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
 			(at 160.02 127 0)
 			(hide yes)
 			(show_name no)

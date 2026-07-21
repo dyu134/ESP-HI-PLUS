@@ -110,10 +110,6 @@
           ""
         ],
         [
-          "drill_out_of_range|139090000|72760000|62bb5063-9f10-4cbc-a5d3-c2410310710e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "hole_clearance|115745000|53450000|b1df6059-42ba-434c-9177-1b5af309af95|30eefccb-fcf3-4f75-b4c1-a809339dfb14",
           ""
         ],
@@ -717,7 +713,7 @@
         "uuid": "38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
       }
     ],
-    "used_designators": "R30-33,J5,#PWR34,#PWR61,MK1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
