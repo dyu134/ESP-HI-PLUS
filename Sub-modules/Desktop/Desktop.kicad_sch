@@ -5797,33 +5797,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Gas:SCD40-D-R2"
+		(symbol "Sensor_Humidity:SHT4x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "SCD40-D-R2"
-				(at 6.985 6.35 0)
+			(property "Value" "SHT4x"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+				(at 3.81 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+				(at 3.81 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5834,7 +5860,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
+			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5845,7 +5871,7 @@
 					)
 				)
 			)
-			(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
+			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5856,32 +5882,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "CO2 sensor I2C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Sensirion*SCD4?*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SCD40-D-R2_0_1"
+			(symbol "SHT4x_1_1"
 				(rectangle
-					(start 7.62 5.08)
-					(end -7.62 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5890,64 +5894,8 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "SCD40-D-R2_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 10.16 2.54 180)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -5956,7 +5904,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5964,10 +5912,27 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 7.62 270)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(hide yes)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
@@ -5975,7 +5940,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5983,37 +5948,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 90)
+				(pin power_in line
+					(at 2.54 -7.62 90)
 					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6658,12 +6603,6 @@
 		(uuid "24e1c049-979f-44c8-aa79-0880c1ac024d")
 	)
 	(junction
-		(at 179.07 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25830e6d-1301-4de4-806b-8970d2478cd8")
-	)
-	(junction
 		(at 90.17 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6718,6 +6657,12 @@
 		(uuid "5b133ba3-f0e8-4a47-93fc-9681d0a1cf76")
 	)
 	(junction
+		(at 179.07 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8c44a7-db4d-4058-b48d-9784a1b197ca")
+	)
+	(junction
 		(at 139.7 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6764,12 +6709,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ff62b5c-9c28-4a55-86f4-aeb0285baf5c")
-	)
-	(junction
-		(at 179.07 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9de580d4-62dc-49f7-b34c-52081edb5988")
 	)
 	(junction
 		(at 110.49 20.32)
@@ -6830,6 +6769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8748fb2-7f9f-4704-a988-13ae38568edc")
+	)
+	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd370efb-ba91-48ae-a1ed-412bcc601c70")
 	)
 	(junction
 		(at 143.51 44.45)
@@ -7641,7 +7586,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 39.37) (xy 201.93 39.37)
+			(xy 189.23 41.91) (xy 201.93 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9800,16 +9745,6 @@
 		(uuid "4e0b75fc-8838-49ba-bfcc-a8b8bf8aa1ba")
 	)
 	(label "RP_I2C_SDA"
-		(at 201.93 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56809fd0-3d88-49fa-8977-07f0d240a023")
-	)
-	(label "RP_I2C_SDA"
 		(at 198.12 133.35 180)
 		(effects
 			(font
@@ -9909,16 +9844,6 @@
 		)
 		(uuid "73c5833e-039c-497c-8caf-9a6cca3abc15")
 	)
-	(label "RP_I2C_SCL"
-		(at 201.93 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75318d0f-d0e5-4e00-a0ce-de701231578d")
-	)
 	(label "SUB_ISDA_C"
 		(at 237.49 109.22 0)
 		(effects
@@ -9928,6 +9853,16 @@
 			(justify left bottom)
 		)
 		(uuid "77b33c21-70b0-41b5-a7dc-c73bd2bcad4d")
+	)
+	(label "RP_I2C_SCL"
+		(at 201.93 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a5210ee-a729-40c7-b46f-a44dbbec7c82")
 	)
 	(label "QSPI_~{CS}"
 		(at 49.53 30.48 180)
@@ -10139,6 +10074,16 @@
 		)
 		(uuid "e7d22e2e-f932-4ea0-9edc-31eaad1593b8")
 	)
+	(label "RP_I2C_SDA"
+		(at 201.93 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8102386-58b3-46f8-8fd8-5608feb5ba33")
+	)
 	(label "RP_I2C_SCL"
 		(at 140.97 59.69 180)
 		(effects
@@ -10188,103 +10133,6 @@
 			(justify right bottom)
 		)
 		(uuid "feefdfad-8c21-470e-8514-9398fce3b2ec")
-	)
-	(symbol
-		(lib_id "Sensor_Gas:SCD40-D-R2")
-		(at 179.07 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0058c440-3287-4dc9-96e9-35f468acda3e")
-		(property "Reference" "U5"
-			(at 170.18 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SCD40-D-R2"
-			(at 170.18 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
-			(at 179.07 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
-			(at 179.07 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
-			(at 179.07 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "3e8e671a-2386-4d5b-8c5d-f4c9ad63ca58")
-		)
-		(pin "9"
-			(uuid "8309224e-dbbc-4cb7-9f66-366e357ddd42")
-		)
-		(pin "10"
-			(uuid "f07a3ccb-9c89-4dbd-a3d3-93a66418e354")
-		)
-		(pin "19"
-			(uuid "bd59b119-9bdd-49a7-a57d-fba87e68aa46")
-		)
-		(pin "6"
-			(uuid "56f8c2c1-e4f4-4e92-b013-3eb904e6ad2e")
-		)
-		(pin "20"
-			(uuid "c770f081-89e5-480a-9d46-4978d0c1e849")
-		)
-		(pin "21"
-			(uuid "8ab454f7-a45d-44d9-acbb-800e7719da80")
-		)
-		(instances
-			(project "Desktop"
-				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -13255,6 +13103,96 @@
 			(project "Desktop"
 				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Humidity:SHT4x")
+		(at 181.61 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58c45751-9913-4a25-a71e-b356165258f3")
+		(property "Reference" "U5"
+			(at 175.26 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHT4x"
+			(at 175.26 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 177.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+			(at 177.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+			(at 181.61 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b7a07eb-f6ce-4c21-84c1-27ad537c7413")
+		)
+		(pin "3"
+			(uuid "6f0ceae3-7f58-45a5-a7a2-8014c7569b23")
+		)
+		(pin "4"
+			(uuid "d822c453-d33e-4450-9fa0-b33f66ab2561")
+		)
+		(pin "1"
+			(uuid "73f5e4a3-51d8-476f-a2e0-b127a08c93f6")
+		)
+		(instances
+			(project "Desktop"
+				(path "/3bd174a1-39fe-431a-9b69-24332a115343"
+					(reference "U5")
 					(unit 1)
 				)
 			)
