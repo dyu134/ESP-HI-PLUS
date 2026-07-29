@@ -76,64 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|129483300|57152148|a7e2a494-abc9-46c4-8a1b-8c61a868cad2|3612dad2-3c58-40b3-bafa-88b3b95ba2c6",
-          ""
-        ],
-        [
-          "clearance|129750000|57152148|15759de2-b3a1-4b0e-9288-26463ffa719d|a7e2a494-abc9-46c4-8a1b-8c61a868cad2",
-          ""
-        ],
-        [
-          "clearance|130041211|58363474|a00472bf-5e7b-45f5-be58-d53eadf91ad7|4db949d9-cddb-44fb-8369-e1b2ca0de7f3",
-          ""
-        ],
-        [
-          "clearance|130236537|56102874|ed445b16-bc8d-467f-a512-3931b11bc266|53390615-b443-4c55-b5b6-68581bebe746",
-          ""
-        ],
-        [
-          "clearance|130541337|58363474|4db949d9-cddb-44fb-8369-e1b2ca0de7f3|a4b10a30-9a8d-412d-9784-a787c8bd5b55",
-          ""
-        ],
-        [
-          "clearance|131041463|58363474|a4b10a30-9a8d-412d-9784-a787c8bd5b55|c73bfc47-9667-40ac-97c3-28bd94dd5396",
-          ""
-        ],
-        [
-          "clearance|131261300|57347474|c73b0f06-d0f4-4f52-82b5-56cd874046cb|1d4c4143-8311-4589-aa50-976afa842fb8",
-          ""
-        ],
-        [
-          "clearance|131261300|57847600|2f499d37-a7c9-4f6c-a2f4-50db98011e5c|c73b0f06-d0f4-4f52-82b5-56cd874046cb",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|53450000|47f2c4ec-fe1d-4a1a-bb04-2e3f14a8f00a|30eefccb-fcf3-4f75-b4c1-a809339dfb14",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|53450000|b1df6059-42ba-434c-9177-1b5af309af95|30eefccb-fcf3-4f75-b4c1-a809339dfb14",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|59550000|6ec3694e-c980-4eaa-844a-1f126923aa22|030b98dd-2cd5-4c54-8594-42174c8529ce",
-          ""
-        ],
-        [
-          "hole_clearance|115745000|59550000|7214a102-7963-4787-896e-9220386b984f|030b98dd-2cd5-4c54-8594-42174c8529ce",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|134000000|46000000|f906a7db-44ae-473b-8cad-d1d069d68bd4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|145750000|45612500|461aa953-094c-4178-a867-96d5fabe966f|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -599,10 +542,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
