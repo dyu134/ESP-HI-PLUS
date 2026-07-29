@@ -13,7 +13,8 @@ The **Portable** sub-module is a high-performance expansion board for the **ESP-
 ### Power Management
 
 - **TLV75733PDBV** (U4) — 3.3V Low-Dropout (LDO) regulator providing stable power to the MCU and peripherals.
-- *(Space for Battery Charging/Management additions)*
+- **TP4065** (U3) — Standalone linear Li-Ion battery charger with thermal regulation.
+- **TCPP03-M20** (U2) — USB-PD 3.1 controller with protection for dual-role power (DRP) and over-voltage/current protection.
 
 ### Peripherals & IO
 
@@ -33,7 +34,7 @@ The Portable module follows the standard [ESP-HI-PLUS identification protocol](.
 | Offset | Size | Field | Value (Hex) | Value (Decoded) | Description |
 | :------: | :----: | :------ | :-----------: | :---------------- | :------------ |
 | 0x00 | 4 | Magic Number | 45 53 50 4D | "ESPM" | ASCII sanity check |
-| 0x04 | 1 | Class ID | 0x03 | 3 | Sensor - Environmental (TBC) |
+| 0x04 | 1 | Class ID | 0x03 | 3 | Sensor - Environmental |
 | 0x05 | 1 | Module ID | 0x02 | 2 | Portable v1 |
 | 0x06 | 1 | HW Revision | 0x01 | 1 | First PCB revision |
 | 0x07 | 2 | FW Revision | 0x0100 | 1.0 | Major.Minor |

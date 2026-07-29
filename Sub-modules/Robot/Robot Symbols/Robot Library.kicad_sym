@@ -63,7 +63,7 @@
 		)
 		(symbol "UBEC_0_0"
 			(pin power_in line
-				(at -8.89 1.27 0)
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "VIN+"
 					(effects
@@ -99,7 +99,7 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 1.27 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -134,10 +134,28 @@
 					)
 				)
 			)
+			(pin input line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "UBEC_1_1"
 			(rectangle
-				(start -6.35 2.54)
+				(start -6.35 5.08)
 				(end 6.35 -2.54)
 				(stroke
 					(width 0)

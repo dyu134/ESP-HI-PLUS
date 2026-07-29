@@ -5,6 +5,8 @@ This directory contains various snap-on expansion boards for the **ESP-HI-PLUS**
 ## List of Sub-modules
 
 - **[Desktop](./Desktop/README.md)** — Desktop alarm clock and environment monitor. Features temperature/humidity sensing and presence detection.
+- **[Portable](./Portable/README.MD)** — High-performance expansion board with STM32U5, USB-PD, and battery charging support.
+- **[Robot](./Robot/README.md)** — Robotic actuator and sensing platform with RP2040, IMU, fuel gauge, and 4-channel servo control.
 
 ## Sub-Module Identification
 
