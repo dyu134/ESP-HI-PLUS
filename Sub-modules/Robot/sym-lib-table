@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Robot Library") (type "KiCad") (uri "${KIPRJMOD}/Robot Symbols/Robot Library.kicad_sym") (options "") (descr ""))
 	(lib (name "LSM6DSV16X") (type "KiCad") (uri "C:/Users/dyu13/Documents/Project/ESP-HI-PLUS/ESP-HI-PLUS Symbols/LSM6DSV16X.kicad_sym") (options "") (descr ""))
+	(lib (name "NINA-B416") (type "KiCad") (uri "${KIPRJMOD}/Robot Symbols/NINA-B416.kicad_sym") (options "") (descr ""))
 )

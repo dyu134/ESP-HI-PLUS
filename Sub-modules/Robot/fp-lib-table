@@ -3,4 +3,5 @@
 	(lib (name "LSM6DSV16X") (type "KiCad") (uri "C:/Users/ADMIN/OneDrive/桌面/KiCad/ESP-HI-PLUS/ESP-HI-PLUS Footprints/LSM6DSV16X.pretty") (options "") (descr ""))
 	(lib (name "MountIngHole_M3_Slim") (type "KiCad") (uri "C:/Users/ADMIN/OneDrive/桌面/KiCad/ESP-HI-PLUS/ESP-HI-PLUS Footprints/MountIngHole_M3_Slim.pretty") (options "") (descr ""))
 	(lib (name "UBEC-5V") (type "KiCad") (uri "${KIPRJMOD}/Robot Footprints/UBEC-5V.pretty") (options "") (descr ""))
+	(lib (name "NINA-B416") (type "KiCad") (uri "${KIPRJMOD}/Robot Footprints/NINA-B416.pretty") (options "") (descr ""))
 )
