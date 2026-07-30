@@ -12845,7 +12845,7 @@
 			(uuid "3d66fa9c-2173-43ed-80d2-e3525c40c0f7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
 			)
