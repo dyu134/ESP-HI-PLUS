@@ -13,7 +13,7 @@ The **Desktop** sub-module is an environment-sensing and time-keeping expansion 
 
 ### Environment Sensors
 
-- **SHT40** (U9) — High-accuracy relative humidity and temperature sensor.
+- **SHT4x** (U5) — High-accuracy relative humidity and temperature sensor.
 - **STHS34PF80** (U6) — Infrared sensor for presence and motion detection.
 - **VEML7700** (U7) — Ambient light sensor for automatic display brightness adjustment.
 
@@ -35,9 +35,9 @@ The Desktop module follows the standard [ESP-HI-PLUS identification protocol](..
 | :------: | :----: | :------ | :-----------: | :---------------- | :------------ |
 | 0x00 | 4 | Magic Number | 45 53 50 4D | "ESPM" | ASCII sanity check |
 | 0x04 | 1 | Class ID | 0x03 | 3 | Sensor - Environmental |
-| 0x05 | 1 | Module ID | 0x01 | 1 | Desktop v1 |
+| 0x05 | 1 | Module ID | 0x01 | 1 | Desktop v1.17 |
 | 0x06 | 1 | HW Revision | 0x01 | 1 | First PCB revision |
-| 0x07 | 2 | FW Revision | 0x0100 | 1.0 | Major.Minor |
+| 0x07 | 2 | FW Revision | 0x1101 | 1.17 | Major.Minor |
 | 0x09 | 1 | Protocol Revision | 0x01 | 1 | Communication protocol v1 |
 | 0x0A | 1 | Power Requirement | 0x00 | Self-powered | USB-C powered, no V_BUS needed |
 | 0x0B | 2 | Max Current (mA) | 0x01F4 | 500 mA | Maximum draw (little-endian) |
@@ -67,9 +67,9 @@ The Desktop module follows the standard [ESP-HI-PLUS identification protocol](..
 
 ### User Interface & IO
 
-- **SK9822-EC20** (D2) — Addressable RGB LED for status or mood lighting.
+- **WS2812B-2020** (D2) — Addressable RGB LED for status or mood lighting.
 - **Tactile Switches** (SW1, SW3) — Reset and bootmode selection switching.
-- **Snooze Button** (SW2) — Sleep mode activation.
+- **Snooze Button** (SW2) — **Kailh MX mechanical keyboard switch** (hotswap) for sleep mode activation.
 - **USB-C Port** (J1) — For independent programming and powering of the RP2040.
 
 ## Integration
@@ -110,5 +110,7 @@ The Desktop module uses two 5-pin magnetic pogo-pin connectors to interface with
 ├── Desktop Symbols/            # Project-local schematic symbols
 ├── Desktop Footprints/         # Project-local footprint libraries
 ├── Desktop 3D Models/          # STEP models
-└── production/                 # Manufacturing outputs (BOM, Gerbers)
+└── production/                 # Manufacturing outputs
+    ├── bom.csv                 # Bill of materials
+    └── ESP-HI-PLUS_Desktop_Sub-module_v1.17.zip # Production archive (latest)
 ```

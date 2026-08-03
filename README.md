@@ -1,6 +1,6 @@
 # ESP-HI-PLUS
 
-An **AI-enabled voice assistant with on-screen interaction**, built around the **ESP32-S3-WROOM-1**. The board integrates a microphone, speaker amplifier, IMU, 2" IPS LCD, and USB-C with on-board Li-ion battery charging, and exposes **two 5-pin magnetic pogo-pin connectors** for attaching various sub-modules. Designed for handheld and wearable applications that combine on-device conversational AI, audio capture/playback, display feedback, and motion sensing.
+An **AI-enabled voice assistant with on-screen interaction**, built around the **ESP32-S3-WROOM-1**. The board integrates a microphone, speaker amplifier, IMU, 2" IPS LCD, MicroSD card slot, and USB-C with on-board Li-ion battery charging, and exposes **two 5-pin magnetic pogo-pin connectors** for attaching various sub-modules. Designed for handheld and wearable applications that combine on-device conversational AI, audio capture/playback, display feedback, and motion sensing.
 
 ![ESP-HI-PLUS 3D Model](ESP-HI-PLUS%203D%20Model%20Image.png)
 
@@ -13,7 +13,7 @@ An **AI-enabled voice assistant with on-screen interaction**, built around the *
 ### Sensors
 
 - **LSM6DSV16X** 6-axis IMU (U8) — 3-axis accelerometer + 3-axis gyroscope with I3C/I2C/SPI interface for motion tracking.
-- **DMM-4026-B I2S Microphone** (U5) — digital MEMS microphone over I2S for audio capture.
+- **ICS-43434 I2S Microphone** (MK1) — digital MEMS microphone over I2S for audio capture.
 
 ### Audio Output
 
@@ -23,19 +23,20 @@ An **AI-enabled voice assistant with on-screen interaction**, built around the *
 ### Power
 
 - **USB-C input** (J1) with **USBLC6-2P6** ESD protection (D1/D7/D8).
-- **TP4065** linear Li-ion/Li-Po charger (U4) — single-cell charging from USB.
+- **TP4065** linear Li-ion/Li-Po charger (U5) — single-cell charging from USB.
 - **TLV75733PDBV** 3.3 V LDO (U3) — system rail for the MCU and logic.
 - **MAX40200AUK** ideal-diode OR-ing (U1, U6) — seamless USB / battery switching with low dropout.
 - **PicoBlade battery connector** (BT1) for a single-cell Li-ion / Li-Po pack.
 - **PMEG4010CEJ** Schottky diode (D5) and **MF-MSMF200** PTC fuse (F1) for input/battery protection.
-- **TGL34-6.8CA** TVS diode (D6) for transient suppression.
+- **SMF6.8CA** TVS diode (D6) for transient suppression.
 
 ### User Interface
 
 - **[2" LCD header](https://www.waveshare.com/2inch-LCD-Module.htm)** (J2) — 2" IPS LCD display.
+- **MicroSD Card Slot** (J5) — for local storage of audio, logs, or assets.
 - **Two SKRPACE010 tactile pushbuttons** (SW1, SW2).
 - **JS102011SAQN SPDT slide switch** (SW3).
-- **SK9822-EC20** addressable RGB LED (D3), plus discrete status LEDs (D2 orange for battery charging, D4 red for USB power).
+- **WS2812B-2020** addressable RGB LED (D12), plus discrete status LEDs (D2 orange for battery charging, D4 red for USB power).
 - **Two PR5L4015-5P-C-F magnetic pogo-pin connectors** (J3, J4) — 5-pin 2.54 mm headers that mate with **magnetic pogo-pin sub-modules** for snap-on expansion.
 
 ### Mounting
@@ -74,7 +75,7 @@ See the [Sub-modules directory](./Sub-modules/README.md) for technical specifica
     ├── designators.csv         # Reference designators
     ├── positions.csv           # Pick-and-place positions
     ├── netlist.ipc             # IPC-D-356 netlist
-    └── ESP-HI-PLUS.zip         # Production archive
+    └── ESP-HI-PLUS_v1.17.zip   # Production archive (latest)
 ```
 
 ## Bill of Materials (summary)
@@ -83,16 +84,17 @@ See the [Sub-modules directory](./Sub-modules/README.md) for technical specifica
 |-------------|----------------------------------------------------------------------------------------------|
 | U2          | ESP32-S3-WROOM-1 module                                                                      |
 | U3          | TLV75733PDBV — 3.3 V LDO                                                                     |
-| U4          | TP4065 — Li-ion charger                                                                      |
-| U5          | DMM-4026-B I2S microphone                                                                    |
+| U5          | TP4065 — Li-ion charger                                                                      |
+| MK1         | ICS-43434 I2S microphone                                                                     |
 | U7          | MAX98357A — I2S Class-D amplifier                                                            |
 | U8          | LSM6DSV16X — 6-axis IMU                                                                      |
 | U1, U6      | MAX40200AUK — ideal diode                                                                    |
 | D1/D7/D8    | USBLC6-2P6 — USB ESD TVS array                                                               |
-| D3          | SK9822-EC20 — addressable RGB LED                                                            |
+| D12         | WS2812B-2020 — addressable RGB LED                                                           |
 | J1          | USB-C receptacle                                                                             |
 | J2          | [2" IPS LCD connector](https://www.waveshare.com/2inch-LCD-Module.htm)                       |
 | J3, J4      | Two 5-pin magnetic pogo-pin connectors (PR5L4015-5P-C-F) for sub-modules                     |
+| J5          | MicroSD Card Slot (Hirose DM3AT)                                                             |
 | SW1, SW2    | SKRPACE010 tactile pushbuttons                                                               |
 | SW3         | JS102011SAQN SPDT slide switch                                                               |
 | R28, R29    | 47 kΩ sub-module **AUX1/ID0** detection resistors (0402) — divider used for ADC class lookup |
@@ -108,12 +110,12 @@ See `production/bom.csv` for the full BOM with footprints and quantities.
 
 ## Manufacturing Outputs
 
-The `production/` folder contains ready-to-use outputs:
+The `production/` folder contains ready-to-use outputs for the latest **v1.17** revision:
 
 - **`bom.csv`** — bill of materials for sourcing.
 - **`positions.csv`** — pick-and-place rotation/coordinates for SMT assembly.
 - **`netlist.ipc`** — IPC-D-356 test netlist.
-- **`ESP-HI-PLUS.zip`** — full fabrication archive (Gerbers + drill included).
+- **`ESP-HI-PLUS_v1.17.zip`** — full fabrication archive (Gerbers + drill included).
 
 ## License
 
