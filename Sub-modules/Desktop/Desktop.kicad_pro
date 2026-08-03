@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -260,7 +260,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.17"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -680,7 +680,7 @@
         "uuid": "3bd174a1-39fe-431a-9b69-24332a115343"
       }
     ],
-    "used_designators": "U5,U9,U11,#PWR14,#PWR25,#PWR34-35,#PWR50-61,BT2,C17,C22-30,R14-18,SW4-6,Y3",
+    "used_designators": "JP1",
     "variants": []
   },
   "sheets": [
