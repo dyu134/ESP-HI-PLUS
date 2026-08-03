@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP-HI-PLUS")
 		(date "2026-07-20")
-		(rev "v1.0")
+		(rev "v1.17")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:MAX40200AUK"
@@ -3572,6 +3572,277 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LSM6DSV16X:LSM6DSV16X"
 			(pin_names
 				(offset 0.254)
@@ -5216,229 +5487,6 @@
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "L1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-LED:APA102_2020-6Pin"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D11"
-				(at 2.1433 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SK9822"
-				(at 7.62 -6.35 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-LED:APA102_2020-6Pin"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/SK9822-EC20/3185287.html?spm=sc.gbn.xds.a___sc.gbn.hd.ss&lcsc_vid=ElBaVFMHFFZdX1VWEQQPBVFeTgUKBVRWEVUKVFFVFVIxVlNeQ1JeU1JXRFBWUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Description" "SK9822 SMD 2x2mm 2-Wire Addressable RGB LED (6 pin)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "DIO-14111"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun RGB LED DotStar addressable APA102 6-Pin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "APA102_2020-6Pin_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "APA102_2020-6Pin_1_1"
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "CI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "CO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8891,11 +8939,11 @@
 		(uuid "8b58a15f-1428-4186-add0-26f785efcf51")
 	)
 	(no_connect
-		(at 107.95 91.44)
+		(at 85.09 69.85)
 		(uuid "9cb4122e-3496-4e19-b22b-71f61e209c08")
 	)
 	(no_connect
-		(at 107.95 86.36)
+		(at 107.95 88.9)
 		(uuid "bb49b476-45b3-4e70-95d9-fbd3e83c7ae4")
 	)
 	(no_connect
@@ -9473,16 +9521,6 @@
 			(type default)
 		)
 		(uuid "32331545-497a-4df3-a44f-a0da8ebe082b")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 92.71 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3292455a-fb65-4ad5-84ea-ec38486643e3")
 	)
 	(wire
 		(pts
@@ -10333,16 +10371,6 @@
 			(type default)
 		)
 		(uuid "71d2fcfe-5da8-4373-860f-e67973840ad9")
-	)
-	(wire
-		(pts
-			(xy 85.09 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723554a0-6de4-4cfc-a9b1-85c2416acf0f")
 	)
 	(wire
 		(pts
@@ -12276,7 +12304,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 91.44) (xy 92.71 91.44)
+			(xy 82.55 88.9) (xy 92.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -14085,7 +14113,7 @@
 		(uuid "6be444da-3c56-4d18-8bed-7e62257973ea")
 	)
 	(label "RGB_DATA"
-		(at 82.55 91.44 0)
+		(at 82.55 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14184,16 +14212,6 @@
 		)
 		(uuid "91901af0-b2c3-4eae-98c5-151513b2f1b2")
 	)
-	(label "RGB_CLK"
-		(at 82.55 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9558706e-722d-4d64-8ce8-7d6e8626aa32")
-	)
 	(label "SUB_I2C_SDA"
 		(at 189.23 87.63 0)
 		(effects
@@ -14213,16 +14231,6 @@
 			(justify left bottom)
 		)
 		(uuid "97765b2f-cc5a-4553-a120-2d768b1ba293")
-	)
-	(label "RGB_CLK"
-		(at 100.33 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a5dc3aa-8b00-4735-831a-3039a7de1286")
 	)
 	(label "SUB_UTXD_C"
 		(at 240.03 60.96 180)
@@ -24335,6 +24343,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6ee74f3-b2fe-4c0b-bbcc-9b6a95456089")
+		(property "Reference" "D12"
+			(at 94.996 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 87.122 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 102.87 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "74ba4ba3-9d52-439a-b286-a1c0cd1a8077")
+		)
+		(pin "1"
+			(uuid "78aff4ce-c214-4c44-9121-d312edb581cf")
+		)
+		(pin "2"
+			(uuid "56e4b44b-44e1-410f-a6b1-ab181eb95153")
+		)
+		(pin "4"
+			(uuid "42e20fb6-3815-42f0-a2fa-5aa89d362a49")
+		)
+		(instances
+			(project "ESP-HI-PLUS"
+				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 151.13 154.94 0)
 		(unit 1)
@@ -26226,111 +26321,6 @@
 			(project "ESP-HI-PLUS"
 				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-LED:APA102_2020-6Pin")
-		(at 100.33 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7d51132-66aa-463a-965b-ef47f6ae6f36")
-		(property "Reference" "D3"
-			(at 102.4733 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SK9822-EC20"
-			(at 91.44 95.504 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-LED:APA102_2020-6Pin"
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SK9822-EC20/3185287.html?spm=sc.gbn.xds.a___sc.gbn.hd.ss&lcsc_vid=ElBaVFMHFFZdX1VWEQQPBVFeTgUKBVRWEVUKVFFVFVIxVlNeQ1JeU1JXRFBWUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ"
-			(at 100.33 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Description" "SK9822 SMD 2x2mm 2-Wire Addressable RGB LED (6 pin)"
-			(at 100.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "DIO-14111"
-			(at 100.33 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec417ecd-3434-45a5-a8d4-27ecd37acb7b")
-		)
-		(pin "6"
-			(uuid "00292309-969a-4db8-97e4-0c528a59a397")
-		)
-		(pin "3"
-			(uuid "cf0c55b3-9e77-49f8-bd89-ae398f8252b7")
-		)
-		(pin "5"
-			(uuid "7b93c711-96ee-44f8-a5e8-345b8ec555b2")
-		)
-		(pin "2"
-			(uuid "9571b80a-2804-4aa7-93cc-be92ecb959a4")
-		)
-		(pin "4"
-			(uuid "36b46084-bc1c-4fcf-ad47-a46dd2066ab2")
-		)
-		(instances
-			(project "ESP-HI-PLUS"
-				(path "/38bc51f5-c7e2-4cb9-a161-d419c07b2cad"
-					(reference "D3")
 					(unit 1)
 				)
 			)
