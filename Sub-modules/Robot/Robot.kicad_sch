@@ -11189,16 +11189,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 118.11 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fbf695-53f8-4541-ac1c-d5b1ca3ebd73")
-	)
-	(wire
-		(pts
 			(xy 175.26 66.04) (xy 175.26 68.58)
 		)
 		(stroke
@@ -12119,6 +12109,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4888f59-12db-4df3-b41f-9f8e9f27d77a")
+	)
+	(wire
+		(pts
 			(xy 48.26 153.67) (xy 68.58 153.67)
 		)
 		(stroke
@@ -12259,16 +12259,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 41.91) (xy 118.11 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa84a6d7-4184-4fb2-8e55-6f47b5bf494c")
-	)
-	(wire
-		(pts
 			(xy 209.55 86.36) (xy 209.55 88.9)
 		)
 		(stroke
@@ -12366,6 +12356,16 @@
 			(type default)
 		)
 		(uuid "b152335c-2077-4291-9686-1f914ba4d77d")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 118.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18f18bd-202e-4a37-ac20-7c5ab326e7ce")
 	)
 	(wire
 		(pts
@@ -13487,16 +13487,6 @@
 		)
 		(uuid "265544ba-db63-4cba-9256-dd620d32ff55")
 	)
-	(label "PWM0"
-		(at 118.11 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "278d09be-68ed-4815-8bbe-8983e1685186")
-	)
 	(label "VSYS_MON"
 		(at 171.45 133.35 180)
 		(effects
@@ -13867,16 +13857,6 @@
 		)
 		(uuid "899e9927-f090-4e6d-85cd-abfc2723d52c")
 	)
-	(label "PWR_~{ALERT}"
-		(at 118.11 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8de7b98e-ed22-4771-8daf-8c8bd3be3ad0")
-	)
 	(label "BOOT"
 		(at 151.13 31.75 180)
 		(effects
@@ -14007,6 +13987,16 @@
 		)
 		(uuid "b177ea9f-8e4f-4e18-90c5-9954cde61f81")
 	)
+	(label "PWR_~{ALERT}"
+		(at 118.11 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5fbc61d-e7dd-4ccc-9e29-aa5063db00c9")
+	)
 	(label "SUB_I2C_SCL"
 		(at 281.94 143.51 180)
 		(effects
@@ -14076,6 +14066,16 @@
 			(justify left bottom)
 		)
 		(uuid "c1f835bd-3e96-4a9e-8ce3-322f41179091")
+	)
+	(label "PWM0"
+		(at 118.11 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c41fec66-48b7-4ff3-b313-cdadcc6566b1")
 	)
 	(label "ANT"
 		(at 59.69 36.83 0)
@@ -16278,7 +16278,6 @@
 		)
 		(pin "12"
 			(uuid "5cb07459-ae90-4362-bf75-2bc0587958b3")
-			(alternate "PWM10")
 		)
 		(pin "13"
 			(uuid "e025bc7c-2640-465e-bb8e-4ac6ad6fb31b")
@@ -16311,6 +16310,7 @@
 		)
 		(pin "24"
 			(uuid "3846bee3-6d2f-4111-a8f9-5ae397bc8da4")
+			(alternate "PWM6")
 		)
 		(pin "15"
 			(uuid "b33ccb5f-5865-41d2-85f7-b20af628aa34")
