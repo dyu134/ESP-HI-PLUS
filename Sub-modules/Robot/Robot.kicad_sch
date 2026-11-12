@@ -9929,16 +9929,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 118.11 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af28b22-d83b-40ee-b6d6-aa4371667202")
-	)
-	(wire
-		(pts
 			(xy 22.86 173.99) (xy 22.86 176.53)
 		)
 		(stroke
@@ -12139,6 +12129,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d24571-8ea9-4247-808b-32b089b31fcf")
+	)
+	(wire
+		(pts
 			(xy 64.77 21.59) (xy 64.77 22.86)
 		)
 		(stroke
@@ -13457,6 +13457,16 @@
 		)
 		(uuid "156a3f3d-cce9-4775-8089-6ea79be07d25")
 	)
+	(label "IMU_INT1"
+		(at 57.15 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2352d8c0-1969-4b7d-8d5c-0aaf155b2c42")
+	)
 	(label "SUB_ISDA_C"
 		(at 237.49 88.9 0)
 		(effects
@@ -13736,16 +13746,6 @@
 			(justify right bottom)
 		)
 		(uuid "660c6aeb-0952-4f13-9a4b-375003b4d23b")
-	)
-	(label "IMU_INT1"
-		(at 118.11 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b9d6291-5e1c-4639-8442-59f22d35eb36")
 	)
 	(label "RP_I2C_SCL"
 		(at 118.11 74.93 180)
